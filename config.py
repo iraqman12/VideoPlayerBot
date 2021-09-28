@@ -25,15 +25,15 @@ load_dotenv()
 admins = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
+API_ID = int(getenv("API_ID", "8634206"))
+API_HASH = getenv("API_HASH", "fc8f066ba30e9cc6b0da2af1561f2744")
+BOT_TOKEN = getenv("BOT_TOKEN", "1983708781:AAGxBsWO1FE6DzZuAF-PMnlbaa1Ompzeg8Y")
+SESSION_STRING = getenv("SESSION_STRING", "AgAM2GjROA6X9Cjdscn0pTJum7BdZmNZzmRw8XcGjWTVDUKTEBirCUeJCDTngEoKvQJBHyCSjKJYMpw80efiSatOXo6BWCRSKL9opGD1dk90LKFXtcVgzvMnDbJP9MkEvb7RykutSgSdBfOoGj_Z5Pvub9CuyGBB_12YB0_hKMU_zQym0iyALBWFVcQCYBQwT4TlOMm7JCMwQ1Yt34Xz66ksbl_o7gcaZJe6o5FePUlBsE4tMwQ-FlKSXXVO-ZGTmZeSSPDtqqn2e_KUoRLfjII9R9elcpkCE76JcNL3eH75VdFm0mVoY6PtvDLWZ7Eii8mDj2MxH1t2dZtO5lFGqgd7d6VUsQA")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "SafoTheBot")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "2007323825").split()))
+REPLY_MESSAGE = getenv("REPLY_MESSAGE", "Hello Sir, I'm a bot, not having time to chat with you.")
 if REPLY_MESSAGE:
     REPLY_MESSAGE = REPLY_MESSAGE
 else:
