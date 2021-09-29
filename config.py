@@ -25,7 +25,7 @@ load_dotenv()
 admins = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", "8634206"))
+API_ID = int(getenv("API_ID", '8634206'))
 API_HASH = getenv("API_HASH", "fc8f066ba30e9cc6b0da2af1561f2744")
 BOT_TOKEN = getenv("BOT_TOKEN", "2025186864:AAEWzPC-QFYcwubIOUIj192cZAOtu7vIi8k")
 SESSION_STRING = getenv("SESSION_STRING", "AgBmNhDePk49yuMoPCKErvo4knCqNMdIXT09xvEX-Jo_iH-ecmNut1V68wUhGze4l-tj4rXIygz-IfsnM58LwyyrdGgH7X0JVniMAIWDSSXjfKOMpGQV4xoqI0ocdKrBJuv3Y1TYiaNLdhWPpZLhQWDhbxpiSIejbrp6hFOtnj3S1hnEZkXMEE5I10A-cem8hjpL8zR4e_6yliMj6yJDudalhkbXPhxqEZ5CV244L-8EfeinmUeCYyBiTXOulBR5c8ZDMO80a4PD3BQgCsZO8cWdNuHgoxDCNunLL49y6zGU44wtkul4CHXQg7mEdlWOSMcMgtNQLyqfhgmxM09cc_GBd6VUsQA")
